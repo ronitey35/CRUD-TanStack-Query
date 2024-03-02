@@ -1,9 +1,9 @@
-import { Heading } from "@chakra-ui/react";
+import Home from "./Home/Home";
 
 function App() {
   return (
     <>
-      <Heading>Hello</Heading>
+      <Home />
     </>
   );
 }

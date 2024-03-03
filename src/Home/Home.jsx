@@ -43,7 +43,7 @@ const Home = () => {
           status: "success",
           title: "Success",
           description: "Data fetched successfully",
-          duration: 3000, // milliseconds
+          duration: 3000,
           isClosable: true,
         });
       },
@@ -74,6 +74,7 @@ const Home = () => {
               onClick={() => {
                 navigate(`/${pageID - 1}`);
               }}
+              disabled={false}
             >
               prev
             </Button>
